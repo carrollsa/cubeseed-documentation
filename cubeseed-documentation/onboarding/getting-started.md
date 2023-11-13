@@ -22,4 +22,5 @@ Before you begin contributing to the project, please take the following steps to
 * [Developer Onboarding](developer-onboarding.md)
 * [UI/UX Onboarding](ui-ux-onboarding.md) (incomplete)
 
-Please also see our Useful Links section
+<br>
+Please also see our [Useful Links](../assets/useful-links.md) section
