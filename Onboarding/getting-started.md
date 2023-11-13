@@ -19,7 +19,7 @@ Welcome to Cubeseed! Thank you for volunteering to offer your time and expertise
 * Introduce yourself to your team
 
 # Role-Specific Onboarding
-* Dev Onboarding
+* [Developer Onboarding](developer-onboarding.md)
 * UI/UX Onboarding (Needs to be written)
 
 Please also see our Useful Links section
