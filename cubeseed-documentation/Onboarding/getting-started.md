@@ -20,6 +20,6 @@ Before you begin contributing to the project, please take the following steps to
 
 # Role-Specific Onboarding
 * [Developer Onboarding](developer-onboarding.md)
-* UI/UX Onboarding (Needs to be written)
+* [UI/UX Onboarding](ui-ux-onboarding.md) (incomplete)
 
 Please also see our Useful Links section
