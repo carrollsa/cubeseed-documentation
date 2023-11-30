@@ -3,7 +3,7 @@ name: Build and Deploy HonKit Book
 on:
   push:
     branches:
-      - main  # Adjust the branch name as needed
+      - main
 
 jobs:
   build-and-deploy:
@@ -19,14 +19,16 @@ jobs:
         node-version: 14
 
     - name: Install Dependencies
-      run: npm install
+      run: |
+        cd cubeseed-documentation
+        npm install
 
     - name: Build HonKit Book
-      run: npm run build  # Adjust the npm script if needed
+      run: honkit build 
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages  # Adjust the branch name as needed
+        BRANCH: gh-pages
         FOLDER: _book
