@@ -34,10 +34,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: cubeseed-documentation/_book
-    
-    - name: Display Outputs
-      run: |
-        echo "Deployment URL: ${{ steps.deploy-to-github-pages.outputs.deployment-url }}"
 
 permissions:
   contents: write
