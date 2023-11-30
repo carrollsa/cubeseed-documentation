@@ -24,7 +24,9 @@ jobs:
         npm install
 
     - name: Build HonKit Book
-      run: honkit build 
+      run: |
+        cd cubeseed-documentation
+        honkit build 
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.5
