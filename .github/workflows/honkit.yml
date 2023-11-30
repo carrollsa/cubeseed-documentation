@@ -37,7 +37,7 @@ jobs:
     
     - name: Display Outputs
       run: |
-        echo "Deployment URL: ${{ steps.deploy.outputs.deployment-url }}"
+        echo "Deployment URL: ${{ steps.deploy-to-github-pages.outputs.deployment-url }}"
 
 permissions:
   contents: write
