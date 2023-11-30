@@ -33,7 +33,7 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: ~/cubeseed-documentation/_book
+        FOLDER: cubeseed-documentation/_book
 
 permissions:
   contents: write
