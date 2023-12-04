@@ -34,6 +34,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: cubeseed-documentation/_book
+    - name: Display Deployment Info
+      run: |
+        ls -R cubeseed-documentation/_book
 
 permissions:
   contents: write
